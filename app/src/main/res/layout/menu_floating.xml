@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#CC000000"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOHRIX FF MENU"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+    <Switch
+        android:id="@+id/swAimbot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aimbot"
+        android:textColor="#FFFFFF"/>
+
+    <Switch
+        android:id="@+id/swSpin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spin Bot"
+        android:textColor="#FFFFFF"/>
+
+    <Switch
+        android:id="@+id/swFly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fly Hack"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
